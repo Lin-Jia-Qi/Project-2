@@ -1,0 +1,118 @@
+@media (max-width: 1301px){
+  .tool_list{
+    justify-content: center;
+    .tool{
+      margin: 0 10px;
+    }
+  }
+}
+
+@media (max-width: 1024px){
+  .banner-title{
+    font-size: 5.5rem;
+  }
+  .service{
+    &-content{
+      flex-direction: column;
+      .title{
+        margin-bottom: 40px;
+        width: 100%;
+      }
+      .service-intro{
+        width: 100%;
+      }
+    }
+  }
+
+  .application-container{
+    padding: 0 12px;
+    }
+    .back-to-top{
+      align-items: end;
+    }
+}
+
+@media (max-width: 883px){
+  .tool{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px){
+  .pros{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  .tool{
+    margin: 0 auto;
+  }
+  .application {
+    border-radius: 80px;
+    &s-filter {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      > :first-child {
+        order: 1;
+      }
+      &-list {
+        order: 3;
+        &-item {
+          margin-top: 16px;
+          margin-bottom: 16px;
+        }
+      }
+      > :last-child {
+        order: 2;
+      }
+    }
+  }
+}
+
+@media (max-width: 647px){
+  .copyright {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px){
+  .recommend-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-title{
+    font-size: 5rem;
+  }
+  .start-button h4{
+     font-size: 2rem;
+  }
+  .copyright {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 532px){
+  .social-media-info{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 454px){
+  .tool{
+    min-width: 0;
+  }
+}
+
+@media (max-width: 428px){
+  .footer-content{
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:391px){
+  .applications-filter-list{
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+}
